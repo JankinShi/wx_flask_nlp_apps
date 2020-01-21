@@ -1,0 +1,2 @@
+model_checkpoint_path: "F:/code/DL/nlp/idiom/wx_idiom/app/couplets/output_model/output_couplet/model.ckpl"
+all_model_checkpoint_paths: "F:/code/DL/nlp/idiom/wx_idiom/app/couplets/output_model/output_couplet/model.ckpl"
