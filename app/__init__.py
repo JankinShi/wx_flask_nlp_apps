@@ -1,21 +1,14 @@
 #程序工厂函数，create_app() 就是程序的工厂函数，统一实例化，参数就是配置类的名字，即 config.py
 # #蓝本一般在实例化的时候注册，在manager.py启动文件中注册也可
 from flask import Flask, render_template
-from flask_bootstrap import Bootstrap
-from flask_mail import Mail
 from flask_moment import Moment
-from flask_sqlalchemy import SQLAlchemy
 from config import config
 from flask_login import LoginManager
 from flask_cors import CORS  # cross origin requests
 from flask_restful import Api, Resource
 
 
-
-bootstrap = Bootstrap()
-mail = Mail()
 moment = Moment()
-db = SQLAlchemy()
 api = Api()
 
 '''初始化flask_login'''
@@ -35,10 +28,8 @@ def create_app(config_name):
     # CORS(app, supports_credentials=True)  # 让flask支持跨域请求
     CORS(app, resources=r'/*')
 
-    bootstrap.init_app(app)
-    # mail.init_app(app)   #wx不需要mail
+
     moment.init_app(app)
-    db.init_app(app)
     login_manager.init_app(app)
     api.init_app(app)
 
@@ -74,6 +65,6 @@ def create_app(config_name):
     app.after_request(after_request)
 
     app.app_context().push()  # 必须要有上下文
-    db.create_all()  # 必须在程序工厂中创建表
+    # db.create_all()  # 必须在程序工厂中创建表
     return app
 

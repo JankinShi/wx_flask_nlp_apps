@@ -1,22 +1,12 @@
 # 启动脚本,是否也可在启动脚本中注册蓝本？
 import os
-from app import create_app, db
-from app.models import User, Role
+from app import create_app
 from flask_script import Manager, Shell
-from flask_migrate import Migrate, MigrateCommand
+
 
 
 app = create_app(os.getenv('FLASK_CONFIG') or 'default')  # 统一进行实例化
 manager = Manager(app)
-migrate = Migrate(app, db)
-
-
-def make_shell_context():
-    return dict(app=app, db=db, User=User, Role=Role)
-
-
-manager.add_command('shell', Shell(make_context=make_shell_context()))  # 后可以在命令行中直接使用。
-manager.add_command('db', MigrateCommand)  # 后可以在命令行中直接使用。
 
 
 @manager.command
