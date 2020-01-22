@@ -1,3 +1,4 @@
+# -*- coding:UTF-8 -*-
 #程序工厂函数，create_app() 就是程序的工厂函数，统一实例化，参数就是配置类的名字，即 config.py
 # #蓝本一般在实例化的时候注册，在manager.py启动文件中注册也可
 from flask import Flask, render_template

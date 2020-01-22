@@ -12,6 +12,11 @@ from . import tulingrobot  #  图灵机器人
 from . import own_think_robot  # 思知机器人
 
 
+@robot_chat.route('/test',methods=['GET','POST'])
+def test():
+    if request.method == "GET":  # 判断请求方式是GET请求
+        return 'this is test'
+
 @robot_chat.route('/wx',methods=['GET','POST'])
 def wx():
     if request.method == "GET":  # 判断请求方式是GET请求

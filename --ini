@@ -1,0 +1,436 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 22 15:16:04 2020] ***
+compiled with version: 7.4.0 on 14 January 2020 16:02:41
+os: Linux-4.15.0-54-generic #58-Ubuntu SMP Mon Jun 24 10:55:24 UTC 2019
+nodename: VM-0-11-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/jankin/code/web/weixin/wx_nlp
+detected binary path: /home/ubuntu/jankin/software/python/venvs/python36_venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/jankin/code/web/weixin/wx_nlp
+your processes number limit is 7080
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8010 fd 3
+uwsgi socket 0 bound to TCP address 0.0.0.0:8111 fd 6
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Set PythonHome to /home/ubuntu/jankin/software/python/venvs/python36_venv
+Python main interpreter initialized at 0x56068a474c80
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1031110 bytes (1006 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+█WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x56068a474c80 pid: 3498 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3498)
+spawned uWSGI worker 1 (pid: 3502, cores: 2)
+spawned uWSGI worker 2 (pid: 3503, cores: 2)
+spawned uWSGI worker 3 (pid: 3504, cores: 2)
+spawned uWSGI worker 4 (pid: 3505, cores: 2)
+*** Stats server enabled on 127.0.0.1:9191 fd: 18 ***
+spawned uWSGI http 1 (pid: 3506)
+[pid: 3503|app: 0|req: 1/1] 112.32.70.58 () {38 vars in 729 bytes} [Wed Jan 22 15:16:09 2020] GET / => generated 12 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 220 bytes (1 switches on core 0)
+[pid: 3502|app: 0|req: 1/2] 112.32.70.58 () {36 vars in 706 bytes} [Wed Jan 22 15:16:14 2020] GET /test => generated 12 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 220 bytes (1 switches on core 0)
+Wed Jan 22 15:18:42 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Jan 22 15:18:42 2020 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Jan 22 15:18:42 2020 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Jan 22 15:18:42 2020 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Jan 22 15:18:42 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Jan 22 15:18:42 2020 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Jan 22 15:18:42 2020 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Jan 22 15:18:42 2020 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 22 15:18:55 2020] ***
+compiled with version: 7.4.0 on 14 January 2020 16:02:41
+os: Linux-4.15.0-54-generic #58-Ubuntu SMP Mon Jun 24 10:55:24 UTC 2019
+nodename: VM-0-11-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/jankin/code/web/weixin/wx_nlp
+detected binary path: /home/ubuntu/jankin/software/python/venvs/python36_venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/jankin/code/web/weixin/wx_nlp
+your processes number limit is 7080
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8010 fd 3
+uwsgi socket 0 bound to UNIX address /home/ubuntu/jankin/code/web/weixin/wx_nlp/uwsgi.sock fd 6
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Set PythonHome to /home/ubuntu/jankin/software/python/venvs/python36_venv
+Python main interpreter initialized at 0x55a91f0d1ce0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1031110 bytes (1006 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+█WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x55a91f0d1ce0 pid: 3904 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 3904)
+spawned uWSGI worker 1 (pid: 3908, cores: 2)
+spawned uWSGI worker 2 (pid: 3909, cores: 2)
+spawned uWSGI worker 3 (pid: 3910, cores: 2)
+spawned uWSGI worker 4 (pid: 3911, cores: 2)
+*** Stats server enabled on 127.0.0.1:9191 fd: 18 ***
+spawned uWSGI http 1 (pid: 3912)
+[pid: 3911|app: 0|req: 1/1] 112.32.70.58 () {38 vars in 737 bytes} [Wed Jan 22 15:18:56 2020] GET /test => generated 12 bytes in 5 msecs (HTTP/1.1 200) 5 headers in 220 bytes (1 switches on core 0)
+[pid: 3911|app: 0|req: 2/2] 117.136.101.76 () {38 vars in 738 bytes} [Wed Jan 22 19:57:25 2020] GET /test => generated 12 bytes in 0 msecs (HTTP/1.1 200) 5 headers in 220 bytes (1 switches on core 1)
+[pid: 3909|app: 0|req: 1/3] 117.136.101.76 () {36 vars in 699 bytes} [Wed Jan 22 19:57:32 2020] GET / => generated 12 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 220 bytes (1 switches on core 0)
+[pid: 3908|app: 0|req: 1/4] 117.136.101.76 () {38 vars in 730 bytes} [Wed Jan 22 20:06:41 2020] GET / => generated 12 bytes in 3 msecs (HTTP/1.1 200) 5 headers in 220 bytes (1 switches on core 0)
+[pid: 3908|app: 0|req: 2/5] 117.136.101.76 () {38 vars in 731 bytes} [Wed Jan 22 20:29:40 2020] GET / => generated 12 bytes in 1 msecs (HTTP/1.1 200) 5 headers in 220 bytes (1 switches on core 1)
+[pid: 3911|app: 0|req: 3/6] 117.136.101.76 () {38 vars in 732 bytes} [Wed Jan 22 20:29:48 2020] GET /test => generated 12 bytes in 1 msecs (HTTP/1.1 200) 5 headers in 220 bytes (1 switches on core 0)
+[pid: 3908|app: 0|req: 3/7] 49.234.72.130 () {38 vars in 713 bytes} [Wed Jan 22 20:43:39 2020] GET / => generated 12 bytes in 0 msecs (HTTP/1.0 200) 5 headers in 220 bytes (1 switches on core 0)
+[pid: 3910|app: 0|req: 1/8] 49.234.72.130 () {40 vars in 674 bytes} [Wed Jan 22 20:43:39 2020] GET /favicon.ico => generated 232 bytes in 5 msecs (HTTP/1.0 404) 5 headers in 213 bytes (1 switches on core 0)
+Traceback (most recent call last):
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask_restful/__init__.py", line 269, in error_router
+    return original_handler(e)
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask_restful/__init__.py", line 269, in error_router
+    return original_handler(e)
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./app/robot_chat/views.py", line 30, in wx
+    data.sort()
+TypeError: '<' not supported between instances of 'NoneType' and 'str'
+[pid: 3908|app: 0|req: 4/9] 49.234.72.130 () {38 vars in 710 bytes} [Wed Jan 22 20:44:59 2020] GET /wx => generated 0 bytes in 15 msecs (HTTP/1.0 500) 0 headers in 0 bytes (0 switches on core 0)
+[pid: 3908|app: 0|req: 5/10] 49.234.72.130 () {36 vars in 688 bytes} [Wed Jan 22 20:45:03 2020] GET /cps => generated 232 bytes in 2 msecs (HTTP/1.0 404) 5 headers in 213 bytes (1 switches on core 1)
+开始验证中
+验证成功： 4856647005850298031
+[pid: 3909|app: 0|req: 2/11] 49.234.72.130 () {32 vars in 576 bytes} [Wed Jan 22 20:46:01 2020] GET /wx?signature=93f08f22c25b1ba6be75ad96480796c36fb473b5&echostr=4856647005850298031&timestamp=1579697161&nonce=1011124534 => generated 19 bytes in 1 msecs (HTTP/1.0 200) 5 headers in 220 bytes (1 switches on core 1)
+Handle Post webdata is  b'<xml><ToUserName><![CDATA[gh_8b15b29b17e5]]></ToUserName>\n<FromUserName><![CDATA[ojG1nwI9AZNUgVvbK7FVeUTGlbro]]></FromUserName>\n<CreateTime>1579697168</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[\xe5\x93\xa6\xe5\x93\xa6]]></Content>\n<MsgId>22615826966769295</MsgId>\n</xml>'
+xml_recMsg.MsgType is : text
+我不喜欢别人对我忽冷忽热的
+即将返回数据
+self.__dict: {'ToUserName': 'ojG1nwI9AZNUgVvbK7FVeUTGlbro', 'FromUserName': 'gh_8b15b29b17e5', 'CreateTime': 1579697170, 'Content': '我不喜欢别人对我忽冷忽热的'}
+XmlForm.format(**self.__dict): 
+        <xml>
+        <ToUserName><![CDATA[ojG1nwI9AZNUgVvbK7FVeUTGlbro]]></ToUserName>
+        <FromUserName><![CDATA[gh_8b15b29b17e5]]></FromUserName>
+        <CreateTime>1579697170</CreateTime>
+        <MsgType><![CDATA[text]]></MsgType>
+        <Content><![CDATA[我不喜欢别人对我忽冷忽热的]]></Content>
+        </xml>
+        
+[pid: 3910|app: 0|req: 2/12] 49.234.72.130 () {36 vars in 638 bytes} [Wed Jan 22 20:46:08 2020] POST /wx?signature=2fe20b3019480bf696171afc53fdda5f0ddc8bef&timestamp=1579697168&nonce=1838186754&openid=ojG1nwI9AZNUgVvbK7FVeUTGlbro => generated 344 bytes in 1906 msecs (HTTP/1.0 200) 5 headers in 221 bytes (1 switches on core 1)
+Handle Post webdata is  b'<xml><ToUserName><![CDATA[gh_8b15b29b17e5]]></ToUserName>\n<FromUserName><![CDATA[ojG1nwI9AZNUgVvbK7FVeUTGlbro]]></FromUserName>\n<CreateTime>1579697197</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[\xe9\x99\x88\xe4\xbf\x8a\xe6\x9d\xb0]]></Content>\n<MsgId>22615826892838637</MsgId>\n</xml>'
+xml_recMsg.MsgType is : text
+陈俊杰，吉林白城人，北京京剧院梅兰芳京剧团演员，裘派花脸，首届中国京剧青年演员研究生班毕业。
+即将返回数据
+self.__dict: {'ToUserName': 'ojG1nwI9AZNUgVvbK7FVeUTGlbro', 'FromUserName': 'gh_8b15b29b17e5', 'CreateTime': 1579697199, 'Content': '陈俊杰，吉林白城人，北京京剧院梅兰芳京剧团演员，裘派花脸，首届中国京剧青年演员研究生班毕业。'}
+XmlForm.format(**self.__dict): 
+        <xml>
+        <ToUserName><![CDATA[ojG1nwI9AZNUgVvbK7FVeUTGlbro]]></ToUserName>
+        <FromUserName><![CDATA[gh_8b15b29b17e5]]></FromUserName>
+        <CreateTime>1579697199</CreateTime>
+        <MsgType><![CDATA[text]]></MsgType>
+        <Content><![CDATA[陈俊杰，吉林白城人，北京京剧院梅兰芳京剧团演员，裘派花脸，首届中国京剧青年演员研究生班毕业。]]></Content>
+        </xml>
+        
+[pid: 3908|app: 0|req: 6/13] 49.234.72.130 () {36 vars in 636 bytes} [Wed Jan 22 20:46:37 2020] POST /wx?signature=819dd194f722dfe6b735cdb9517a0ff0ea3c8701&timestamp=1579697197&nonce=461648495&openid=ojG1nwI9AZNUgVvbK7FVeUTGlbro => generated 443 bytes in 1733 msecs (HTTP/1.0 200) 5 headers in 221 bytes (1 switches on core 1)
+Handle Post webdata is  b'<xml><ToUserName><![CDATA[gh_8b15b29b17e5]]></ToUserName>\n<FromUserName><![CDATA[ojG1nwEZczCyHKJNNVGR5SM66-4E]]></FromUserName>\n<CreateTime>1579697274</CreateTime>\n<MsgType><![CDATA[event]]></MsgType>\n<Event><![CDATA[subscribe]]></Event>\n<EventKey><![CDATA[]]></EventKey>\n</xml>'
+Traceback (most recent call last):
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask_restful/__init__.py", line 269, in error_router
+    return original_handler(e)
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask_restful/__init__.py", line 269, in error_router
+    return original_handler(e)
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./app/robot_chat/views.py", line 49, in wx
+    print('xml_recMsg.MsgType is :', recMsg.MsgType)
+AttributeError: 'NoneType' object has no attribute 'MsgType'
+[pid: 3908|app: 0|req: 7/14] 49.234.72.130 () {36 vars in 636 bytes} [Wed Jan 22 20:47:54 2020] POST /wx?signature=1d6094d41634d5b9eb925dfcedbb689e565610b9&timestamp=1579697274&nonce=478626881&openid=ojG1nwEZczCyHKJNNVGR5SM66-4E => generated 0 bytes in 6 msecs (HTTP/1.0 500) 0 headers in 0 bytes (0 switches on core 0)
+Handle Post webdata is  b'<xml><ToUserName><![CDATA[gh_8b15b29b17e5]]></ToUserName>\n<FromUserName><![CDATA[ojG1nwI9AZNUgVvbK7FVeUTGlbro]]></FromUserName>\n<CreateTime>1579697381</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[\xe5\xae\x89\xe5\xbe\xbd\xe8\xb4\xa2\xe7\xbb\x8f\xe5\xa4\xa7\xe5\xad\xa6]]></Content>\n<MsgId>22615825764444899</MsgId>\n</xml>'
+xml_recMsg.MsgType is : text
+安徽财经大学（Anhui University of Finance and Economics）简称“安财”。
+即将返回数据
+self.__dict: {'ToUserName': 'ojG1nwI9AZNUgVvbK7FVeUTGlbro', 'FromUserName': 'gh_8b15b29b17e5', 'CreateTime': 1579697381, 'Content': '安徽财经大学（Anhui University of Finance and Economics）简称“安财”。'}
+XmlForm.format(**self.__dict): 
+        <xml>
+        <ToUserName><![CDATA[ojG1nwI9AZNUgVvbK7FVeUTGlbro]]></ToUserName>
+        <FromUserName><![CDATA[gh_8b15b29b17e5]]></FromUserName>
+        <CreateTime>1579697381</CreateTime>
+        <MsgType><![CDATA[text]]></MsgType>
+        <Content><![CDATA[安徽财经大学（Anhui University of Finance and Economics）简称“安财”。]]></Content>
+        </xml>
+        
+[pid: 3908|app: 0|req: 8/15] 49.234.72.130 () {36 vars in 636 bytes} [Wed Jan 22 20:49:41 2020] POST /wx?signature=c37ec63f9d304d2e07e224e5e55ab31c5088e452&timestamp=1579697381&nonce=289392630&openid=ojG1nwI9AZNUgVvbK7FVeUTGlbro => generated 391 bytes in 567 msecs (HTTP/1.0 200) 5 headers in 221 bytes (1 switches on core 1)
+Handle Post webdata is  b'<xml><ToUserName><![CDATA[gh_8b15b29b17e5]]></ToUserName>\n<FromUserName><![CDATA[ojG1nwGiXL0XskIjBtUH3BPdXw5M]]></FromUserName>\n<CreateTime>1579697555</CreateTime>\n<MsgType><![CDATA[event]]></MsgType>\n<Event><![CDATA[subscribe]]></Event>\n<EventKey><![CDATA[]]></EventKey>\n</xml>'
+Traceback (most recent call last):
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask/app.py", line 2463, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask/app.py", line 2449, in wsgi_app
+    response = self.handle_exception(e)
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask_restful/__init__.py", line 269, in error_router
+    return original_handler(e)
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask/app.py", line 1866, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask/app.py", line 2446, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask/app.py", line 1951, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask_restful/__init__.py", line 269, in error_router
+    return original_handler(e)
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask_cors/extension.py", line 161, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask/app.py", line 1820, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask/_compat.py", line 39, in reraise
+    raise value
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask/app.py", line 1949, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/ubuntu/jankin/software/python/venvs/python36_venv/lib/python3.6/site-packages/flask/app.py", line 1935, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "./app/robot_chat/views.py", line 49, in wx
+    print('xml_recMsg.MsgType is :', recMsg.MsgType)
+AttributeError: 'NoneType' object has no attribute 'MsgType'
+[pid: 3908|app: 0|req: 9/16] 49.234.72.130 () {36 vars in 636 bytes} [Wed Jan 22 20:52:35 2020] POST /wx?signature=acac4e31d83488852e2367cccecf828d7247ff6b&timestamp=1579697555&nonce=124985369&openid=ojG1nwGiXL0XskIjBtUH3BPdXw5M => generated 0 bytes in 9 msecs (HTTP/1.0 500) 0 headers in 0 bytes (0 switches on core 0)
+Handle Post webdata is  b'<xml><ToUserName><![CDATA[gh_8b15b29b17e5]]></ToUserName>\n<FromUserName><![CDATA[ojG1nwGiXL0XskIjBtUH3BPdXw5M]]></FromUserName>\n<CreateTime>1579697572</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[[\xe6\x97\xba\xe6\x9f\xb4]]]></Content>\n<MsgId>22615831327103635</MsgId>\n</xml>'
+xml_recMsg.MsgType is : text
+令x=a[1][1]， 则a[1][a[1][1]]=a[1][x] 即表示数组a里面第一行第x列的元素
+即将返回数据
+self.__dict: {'ToUserName': 'ojG1nwGiXL0XskIjBtUH3BPdXw5M', 'FromUserName': 'gh_8b15b29b17e5', 'CreateTime': 1579697576, 'Content': '令x=a[1][1]， 则a[1][a[1][1]]=a[1][x] 即表示数组a里面第一行第x列的元素'}
+XmlForm.format(**self.__dict): 
+        <xml>
+        <ToUserName><![CDATA[ojG1nwGiXL0XskIjBtUH3BPdXw5M]]></ToUserName>
+        <FromUserName><![CDATA[gh_8b15b29b17e5]]></FromUserName>
+        <CreateTime>1579697576</CreateTime>
+        <MsgType><![CDATA[text]]></MsgType>
+        <Content><![CDATA[令x=a[1][1]， 则a[1][a[1][1]]=a[1][x] 即表示数组a里面第一行第x列的元素]]></Content>
+        </xml>
+        
+[pid: 3908|app: 0|req: 10/17] 49.234.72.130 () {36 vars in 635 bytes} [Wed Jan 22 20:52:53 2020] POST /wx?signature=698461325c9f9fe6af63c332ba15d85c18bf0d7d&timestamp=1579697573&nonce=430459270&openid=ojG1nwGiXL0XskIjBtUH3BPdXw5M => generated 393 bytes in 2990 msecs (HTTP/1.0 200) 5 headers in 221 bytes (1 switches on core 1)
+Handle Post webdata is  b'<xml><ToUserName><![CDATA[gh_8b15b29b17e5]]></ToUserName>\n<FromUserName><![CDATA[ojG1nwGiXL0XskIjBtUH3BPdXw5M]]></FromUserName>\n<CreateTime>1579697594</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[[\xe6\xb1\x97]]]></Content>\n<MsgId>22615831185962969</MsgId>\n</xml>'
+xml_recMsg.MsgType is : text
+你咋啦？
+即将返回数据
+self.__dict: {'ToUserName': 'ojG1nwGiXL0XskIjBtUH3BPdXw5M', 'FromUserName': 'gh_8b15b29b17e5', 'CreateTime': 1579697595, 'Content': '你咋啦？'}
+XmlForm.format(**self.__dict): 
+        <xml>
+        <ToUserName><![CDATA[ojG1nwGiXL0XskIjBtUH3BPdXw5M]]></ToUserName>
+        <FromUserName><![CDATA[gh_8b15b29b17e5]]></FromUserName>
+        <CreateTime>1579697595</CreateTime>
+        <MsgType><![CDATA[text]]></MsgType>
+        <Content><![CDATA[你咋啦？]]></Content>
+        </xml>
+        
+[pid: 3908|app: 0|req: 11/18] 49.234.72.130 () {36 vars in 638 bytes} [Wed Jan 22 20:53:14 2020] POST /wx?signature=0534de5b6284b0aa3b8c9b3ead2a0449cbd9f470&timestamp=1579697594&nonce=1247288745&openid=ojG1nwGiXL0XskIjBtUH3BPdXw5M => generated 317 bytes in 1273 msecs (HTTP/1.0 200) 5 headers in 221 bytes (1 switches on core 0)
+Handle Post webdata is  b'<xml><ToUserName><![CDATA[gh_8b15b29b17e5]]></ToUserName>\n<FromUserName><![CDATA[ojG1nwGiXL0XskIjBtUH3BPdXw5M]]></FromUserName>\n<CreateTime>1579697604</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[[\xe5\x90\x83\xe7\x93\x9c]]]></Content>\n<MsgId>22615830255337118</MsgId>\n</xml>'
+xml_recMsg.MsgType is : text
+有板凳吗，没有板凳我不吃
+即将返回数据
+self.__dict: {'ToUserName': 'ojG1nwGiXL0XskIjBtUH3BPdXw5M', 'FromUserName': 'gh_8b15b29b17e5', 'CreateTime': 1579697606, 'Content': '有板凳吗，没有板凳我不吃'}
+XmlForm.format(**self.__dict): 
+        <xml>
+        <ToUserName><![CDATA[ojG1nwGiXL0XskIjBtUH3BPdXw5M]]></ToUserName>
+        <FromUserName><![CDATA[gh_8b15b29b17e5]]></FromUserName>
+        <CreateTime>1579697606</CreateTime>
+        <MsgType><![CDATA[text]]></MsgType>
+        <Content><![CDATA[有板凳吗，没有板凳我不吃]]></Content>
+        </xml>
+        
+[pid: 3908|app: 0|req: 12/19] 49.234.72.130 () {36 vars in 636 bytes} [Wed Jan 22 20:53:24 2020] POST /wx?signature=0a00e034d9e0baca51658f742f8e97058759d774&timestamp=1579697604&nonce=836431286&openid=ojG1nwGiXL0XskIjBtUH3BPdXw5M => generated 341 bytes in 1728 msecs (HTTP/1.0 200) 5 headers in 221 bytes (1 switches on core 1)
+[pid: 3908|app: 0|req: 13/20] 49.234.72.130 () {30 vars in 395 bytes} [Wed Jan 22 20:58:41 2020] GET /cache/global/img/gs.gif => generated 232 bytes in 1 msecs (HTTP/1.0 404) 5 headers in 213 bytes (1 switches on core 0)
+[pid: 3910|app: 0|req: 3/21] 49.234.72.130 () {36 vars in 682 bytes} [Wed Jan 22 20:58:42 2020] GET / => generated 12 bytes in 0 msecs (HTTP/1.0 200) 5 headers in 220 bytes (1 switches on core 0)
+[pid: 3908|app: 0|req: 14/22] 49.234.72.130 () {36 vars in 603 bytes} [Wed Jan 22 21:00:10 2020] GET / => generated 12 bytes in 0 msecs (HTTP/1.0 200) 5 headers in 220 bytes (1 switches on core 0)
+[pid: 3911|app: 0|req: 4/23] 49.234.72.130 () {36 vars in 567 bytes} [Wed Jan 22 21:00:10 2020] GET /favicon.ico => generated 232 bytes in 2 msecs (HTTP/1.0 404) 5 headers in 213 bytes (1 switches on core 0)
+[pid: 3911|app: 0|req: 5/24] 49.234.72.130 () {38 vars in 733 bytes} [Wed Jan 22 21:01:54 2020] GET / => generated 12 bytes in 0 msecs (HTTP/1.0 200) 5 headers in 220 bytes (1 switches on core 1)
+[pid: 3908|app: 0|req: 15/25] 49.234.72.130 () {38 vars in 761 bytes} [Wed Jan 22 21:01:54 2020] GET /index.php => generated 232 bytes in 0 msecs (HTTP/1.0 404) 5 headers in 213 bytes (1 switches on core 0)
+[pid: 3908|app: 0|req: 16/26] 49.234.72.130 () {44 vars in 803 bytes} [Wed Jan 22 21:02:35 2020] GET / => generated 12 bytes in 0 msecs (HTTP/1.0 200) 5 headers in 220 bytes (1 switches on core 1)
+[pid: 3910|app: 0|req: 4/27] 49.234.72.130 () {44 vars in 748 bytes} [Wed Jan 22 21:02:36 2020] GET /favicon.ico => generated 232 bytes in 2 msecs (HTTP/1.0 404) 5 headers in 213 bytes (1 switches on core 0)
+[pid: 3911|app: 0|req: 6/28] 49.234.72.130 () {44 vars in 748 bytes} [Wed Jan 22 21:02:36 2020] GET /favicon.ico => generated 232 bytes in 1 msecs (HTTP/1.0 404) 5 headers in 213 bytes (1 switches on core 0)
+[pid: 3911|app: 0|req: 7/29] 49.234.72.130 () {46 vars in 818 bytes} [Wed Jan 22 21:02:37 2020] GET / => generated 12 bytes in 1 msecs (HTTP/1.0 200) 5 headers in 220 bytes (1 switches on core 1)
+[pid: 3910|app: 0|req: 5/30] 49.234.72.130 () {46 vars in 818 bytes} [Wed Jan 22 21:02:39 2020] GET / => generated 12 bytes in 0 msecs (HTTP/1.0 200) 5 headers in 220 bytes (1 switches on core 1)
+Wed Jan 22 21:09:50 2020 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Jan 22 21:09:50 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Jan 22 21:09:50 2020 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Jan 22 21:09:50 2020 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Jan 22 21:09:50 2020 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Jan 22 21:09:50 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Jan 22 21:09:50 2020 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Jan 22 21:09:50 2020 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.15-debian (64bit) on [Wed Jan 22 21:10:02 2020] ***
+compiled with version: 7.3.0 on 28 September 2018 15:41:15
+os: Linux-4.15.0-54-generic #58-Ubuntu SMP Mon Jun 24 10:55:24 UTC 2019
+nodename: VM-0-11-ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/jankin/code/web/weixin/wx_nlp
+detected binary path: /usr/bin/uwsgi-core
+dropping root privileges as early as possible
+chdir() to /home/ubuntu/jankin/code/web/weixin/wx_nlp
+your processes number limit is 7080
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/jankin/code/web/weixin/wx_nlp/uwsgi.sock fd 3
+dropping root privileges after socket binding
+dropping root privileges after plugin initialization
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1029750 bytes (1005 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+*** no app loaded. going in full dynamic mode ***
+dropping root privileges after application loading
+*** uWSGI is running in multiple interpreter mode ***
+!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!
+no request plugin is loaded, you will not be able to manage requests.
+you may need to install the package for your language of choice, or simply load it with --plugin.
+!!!!!!!!!!! END OF WARNING !!!!!!!!!!
+spawned uWSGI master process (pid: 4985)
+spawned uWSGI worker 1 (pid: 4986, cores: 2)
+spawned uWSGI worker 2 (pid: 4987, cores: 2)
+spawned uWSGI worker 3 (pid: 4988, cores: 2)
+spawned uWSGI worker 4 (pid: 4989, cores: 2)
+*** Stats server enabled on 127.0.0.1:9191 fd: 15 ***
+Wed Jan 22 21:10:34 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Jan 22 21:10:34 2020 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Jan 22 21:10:34 2020 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Jan 22 21:10:34 2020 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Jan 22 21:10:34 2020 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.15-debian (64bit) on [Wed Jan 22 21:10:44 2020] ***
+compiled with version: 7.3.0 on 28 September 2018 15:41:15
+os: Linux-4.15.0-54-generic #58-Ubuntu SMP Mon Jun 24 10:55:24 UTC 2019
+nodename: VM-0-11-ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/jankin/code/web/weixin/wx_nlp
+detected binary path: /usr/bin/uwsgi-core
+dropping root privileges as early as possible
+chdir() to /home/ubuntu/jankin/code/web/weixin/wx_nlp
+your processes number limit is 7080
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address /home/ubuntu/jankin/code/web/weixin/wx_nlp/uwsgi.sock fd 3
+dropping root privileges after socket binding
+dropping root privileges after plugin initialization
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1029750 bytes (1005 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+*** no app loaded. going in full dynamic mode ***
+dropping root privileges after application loading
+*** uWSGI is running in multiple interpreter mode ***
+!!!!!!!!!!!!!! WARNING !!!!!!!!!!!!!!
+no request plugin is loaded, you will not be able to manage requests.
+you may need to install the package for your language of choice, or simply load it with --plugin.
+!!!!!!!!!!! END OF WARNING !!!!!!!!!!
+spawned uWSGI master process (pid: 5130)
+spawned uWSGI worker 1 (pid: 5131, cores: 2)
+spawned uWSGI worker 2 (pid: 5132, cores: 2)
+spawned uWSGI worker 3 (pid: 5133, cores: 2)
+spawned uWSGI worker 4 (pid: 5134, cores: 2)
+*** Stats server enabled on 127.0.0.1:9191 fd: 15 ***
+Wed Jan 22 21:11:28 2020 - uWSGI worker 1 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Jan 22 21:11:28 2020 - uWSGI worker 4 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Jan 22 21:11:28 2020 - uWSGI worker 2 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+Wed Jan 22 21:11:28 2020 - uWSGI worker 3 screams: UAAAAAAH my master disconnected: i will kill myself !!!
+*** Starting uWSGI 2.0.18 (64bit) on [Wed Jan 22 21:12:14 2020] ***
+compiled with version: 7.4.0 on 14 January 2020 16:02:41
+os: Linux-4.15.0-54-generic #58-Ubuntu SMP Mon Jun 24 10:55:24 UTC 2019
+nodename: VM-0-11-ubuntu
+machine: x86_64
+clock source: unix
+detected number of CPU cores: 1
+current working directory: /home/ubuntu/jankin/code/web/weixin/wx_nlp
+detected binary path: /home/ubuntu/jankin/software/python/venvs/python36_venv/bin/uwsgi
+!!! no internal routing support, rebuild with pcre support !!!
+chdir() to /home/ubuntu/jankin/code/web/weixin/wx_nlp
+your processes number limit is 7080
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uWSGI http bound on 0.0.0.0:8010 fd 3
+uwsgi socket 0 bound to UNIX address /home/ubuntu/jankin/code/web/weixin/wx_nlp/uwsgi.sock fd 6
+Python version: 3.6.9 (default, Nov  7 2019, 10:44:02)  [GCC 8.3.0]
+Set PythonHome to /home/ubuntu/jankin/software/python/venvs/python36_venv
+Python main interpreter initialized at 0x55b87f453ce0
+python threads support enabled
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1031110 bytes (1006 KB) for 8 cores
+*** Operational MODE: preforking+threaded ***
+█WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x55b87f453ce0 pid: 5480 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 5480)
+spawned uWSGI worker 1 (pid: 5484, cores: 2)
+spawned uWSGI worker 2 (pid: 5485, cores: 2)
+spawned uWSGI worker 3 (pid: 5486, cores: 2)
+spawned uWSGI worker 4 (pid: 5487, cores: 2)
+*** Stats server enabled on 127.0.0.1:9191 fd: 18 ***
+spawned uWSGI http 1 (pid: 5488)
+[pid: 5487|app: 0|req: 1/1] 49.234.72.130 () {38 vars in 713 bytes} [Wed Jan 22 21:12:19 2020] GET / => generated 12 bytes in 3 msecs (HTTP/1.0 200) 5 headers in 220 bytes (1 switches on core 0)
+Handle Post webdata is  b'<xml><ToUserName><![CDATA[gh_8b15b29b17e5]]></ToUserName>\n<FromUserName><![CDATA[ojG1nwI9AZNUgVvbK7FVeUTGlbro]]></FromUserName>\n<CreateTime>1579698769</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[\xe5\x97\xaf]]></Content>\n<MsgId>22615847348670616</MsgId>\n</xml>'
+xml_recMsg.MsgType is : text
+⊙v⊙）嗯
+即将返回数据
+self.__dict: {'ToUserName': 'ojG1nwI9AZNUgVvbK7FVeUTGlbro', 'FromUserName': 'gh_8b15b29b17e5', 'CreateTime': 1579698770, 'Content': '⊙v⊙）嗯'}
+XmlForm.format(**self.__dict): 
+        <xml>
+        <ToUserName><![CDATA[ojG1nwI9AZNUgVvbK7FVeUTGlbro]]></ToUserName>
+        <FromUserName><![CDATA[gh_8b15b29b17e5]]></FromUserName>
+        <CreateTime>1579698770</CreateTime>
+        <MsgType><![CDATA[text]]></MsgType>
+        <Content><![CDATA[⊙v⊙）嗯]]></Content>
+        </xml>
+        
+[pid: 5484|app: 0|req: 1/2] 49.234.72.130 () {36 vars in 638 bytes} [Wed Jan 22 21:12:49 2020] POST /wx?signature=7abd3cb8325aac2e902baafefbbf0fe8d06c844f&timestamp=1579698769&nonce=1321326566&openid=ojG1nwI9AZNUgVvbK7FVeUTGlbro => generated 318 bytes in 867 msecs (HTTP/1.0 200) 5 headers in 221 bytes (1 switches on core 0)
